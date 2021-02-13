@@ -16,7 +16,7 @@ INDEX.PHP
 **************************
 
 O arquivo index.php é o que comporta as rotas do sistema. Cada requisição, alteração ou manipulação de URL é passada por ele. Caso não encontre a rota necessária, 
-será redirecionado para a página de Error. 
+será redirecionado para a página de Error. O nome do diretório deve ser 'doadores'.
 
 **************************
 Helpers
