@@ -82,7 +82,7 @@ class Model
         $stmt->bindParam(':cpf', $cpf);
         $stmt->bindParam(':email', $email);
         $stmt->bindParam(':telefone', $telefone);
-        $stmt->bindParam(':dt_nasc', $dt_nasc);
+        // $stmt->bindParam(':dt_nasc', $dt_nasc);
         $stmt->bindParam(':intervalo', $intervalo);
         $stmt->bindParam(':cep', $cep);
         $stmt->bindParam(':logradouro', $logradouro);
